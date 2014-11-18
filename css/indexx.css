@@ -5,19 +5,20 @@ body {
 	height: 100%;
 	font-family: Helvetica, Arial, sans-serif;
     color: #0B615E;
-    background-image:url('/Images/black.png')
+    background-image:url('/Images/black.png');
+        text-align: left; 
     
 }
 #header {
 	position: fixed;
 	left: 100px;
-	width: 200px;
+	width: 200px; 
 	min-height: 300px;
 	max-height: 850px;
 	z-index: 10;
 }
 #header div {
-	width: 180px;
+	width: 130px;
 	padding: 0px 20px 0 0;
 }
 #header h1 {
@@ -45,24 +46,30 @@ body.white #header h1 a {
 }
 #header div#menu_bot p {
 	display: none;
+    
+     
 }
 #header div#menu_bot p {
 	display: block;
+    
 }
 .content {
 	top: 8%;
 	padding: 1% 20px 1% 212px;
 	height: 80%;
 	min-height: 360px;
+    
 }
 .page-template-default .content, .blog .content, .archive .content, .single .content {
 	padding: 32px 0 0 280px;
 	width: 50%;
 	max-width: 460px;
 	text-align: justify;
+     
 }
 body.white .content table#pics td {
 	border-right: 20px solid black;
+    
 }
 #footer {
 	z-index: 20;
@@ -79,3 +86,30 @@ body.white .content table#pics td {
 
 h1{ font-size:30px; }  
 h2{ color: black; } 
+
+.middle{
+    font-size: 40px; 
+    height: 300px;
+    width; 500px; 
+} 
+
+#menu_top{
+ float: right; } 
+
+.me {position: absolute; top: 70px; left: 845px}  
+
+.aboutcontent{ width: 400px;
+    padding: 10px;
+    margin: 400px;
+    text-align: center;
+    border-style: solid white;
+    height: auto; 
+    margin-top: 30px;
+   
+} 
+h3{color: white; 
+    font-size: 50px; 
+} 
+.mylist{list-style: none;
+    font-size: 20px; 
+} 
