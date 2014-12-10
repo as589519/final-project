@@ -1,0 +1,28 @@
+
+h1{font-family: helvetica; 
+    text-align: center; 
+} 
+
+h2{font-family: helvetica;
+    color: #F8A25C;   
+    text-align: center; 
+} 
+
+.content{width: 700px;
+    padding: 25px;
+    border: 25px solid white;
+    margin: auto; align-content: center;  
+    margin-top: 40px; 
+    
+    text-align: center;
+    background-image: url(../Images/forest.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    color:white;
+    text-align: center; 
+} 
+
+p{font-family: helvetica; 
+} 
